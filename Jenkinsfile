@@ -20,5 +20,11 @@ pipeline {
       }
     }
 
+    stage('Notify') {
+      steps {
+        echo 'Notify the deploy'
+      }
+    }
+
   }
 }
